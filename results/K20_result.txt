@@ -1,0 +1,102 @@
+MINIMAL CUT BENCHMARK RESULTS
+========================================
+
+Graph file: graphs/complete/K20.txt
+Vertices: 20
+Edges: 190
+Threads: 20
+
+============================================================
+
+SOLVER RESULTS
+
+============================================================
+
+Solver: Sequential
+Minimal cuts: 262144
+
+Candidates: 262144
+Minimal cuts: 262144
+Connectivity tests: 524288
+Minimality tests: 262144
+Branches: 1
+Elapsed time (s): 3.50134
+
+============================================================
+
+Solver: OpenMP Sections
+Minimal cuts: 262144
+
+Candidates: 262144
+Minimal cuts: 262144
+Connectivity tests: 524288
+Minimality tests: 262144
+Branches: 40
+Elapsed time (s): 0.511767
+
+============================================================
+
+Solver: OpenMP Tasks
+Minimal cuts: 262144
+
+Candidates: 262144
+Minimal cuts: 262144
+Connectivity tests: 524288
+Minimality tests: 262144
+Branches: 40
+Elapsed time (s): 0.422885
+
+============================================================
+
+Solver: Dynamic Tasking
+Minimal cuts: 262144
+
+Candidates: 262144
+Minimal cuts: 262144
+Connectivity tests: 524288
+Minimality tests: 262144
+Branches: 40
+Elapsed time (s): 0.400008
+
+============================================================
+
+Solver: Explicit Work Queue
+Minimal cuts: 262144
+
+Candidates: 262144
+Minimal cuts: 262144
+Connectivity tests: 524288
+Minimality tests: 262144
+Branches: 80
+Elapsed time (s): 0.420582
+
+============================================================
+
+Solver: Adaptive
+Minimal cuts: 262144
+
+Candidates: 262144
+Minimal cuts: 262144
+Connectivity tests: 524288
+Minimality tests: 262144
+Branches: 40
+Elapsed time (s): 0.461735
+
+============================================================
+
+SUMMARY
+=======
+
+Graph file: graphs/complete/K20.txt
+Vertices: 20
+Edges: 190
+Threads: 20
+
+Solver	Minimal Cuts
+----------------------------------------
+Sequential	262144
+OpenMP Sections	262144
+OpenMP Tasks	262144
+Dynamic Tasking	262144
+Explicit Work Queue	262144
+Adaptive	262144

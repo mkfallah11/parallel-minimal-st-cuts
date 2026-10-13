@@ -1,0 +1,102 @@
+MINIMAL CUT BENCHMARK RESULTS
+========================================
+
+Graph file: graphs/complete/K22.txt
+Vertices: 22
+Edges: 231
+Threads: 20
+
+============================================================
+
+SOLVER RESULTS
+
+============================================================
+
+Solver: Sequential
+Minimal cuts: 1048576
+
+Candidates: 1048576
+Minimal cuts: 1048576
+Connectivity tests: 2097152
+Minimality tests: 1048576
+Branches: 1
+Elapsed time (s): 16.0449
+
+============================================================
+
+Solver: OpenMP Sections
+Minimal cuts: 1048576
+
+Candidates: 1048576
+Minimal cuts: 1048576
+Connectivity tests: 2097152
+Minimality tests: 1048576
+Branches: 40
+Elapsed time (s): 2.20602
+
+============================================================
+
+Solver: OpenMP Tasks
+Minimal cuts: 1048576
+
+Candidates: 1048576
+Minimal cuts: 1048576
+Connectivity tests: 2097152
+Minimality tests: 1048576
+Branches: 40
+Elapsed time (s): 1.88216
+
+============================================================
+
+Solver: Dynamic Tasking
+Minimal cuts: 1048576
+
+Candidates: 1048576
+Minimal cuts: 1048576
+Connectivity tests: 2097152
+Minimality tests: 1048576
+Branches: 40
+Elapsed time (s): 1.87549
+
+============================================================
+
+Solver: Explicit Work Queue
+Minimal cuts: 1048576
+
+Candidates: 1048576
+Minimal cuts: 1048576
+Connectivity tests: 2097152
+Minimality tests: 1048576
+Branches: 80
+Elapsed time (s): 1.88342
+
+============================================================
+
+Solver: Adaptive
+Minimal cuts: 1048576
+
+Candidates: 1048576
+Minimal cuts: 1048576
+Connectivity tests: 2097152
+Minimality tests: 1048576
+Branches: 40
+Elapsed time (s): 2.11588
+
+============================================================
+
+SUMMARY
+=======
+
+Graph file: graphs/complete/K22.txt
+Vertices: 22
+Edges: 231
+Threads: 20
+
+Solver	Minimal Cuts
+----------------------------------------
+Sequential	1048576
+OpenMP Sections	1048576
+OpenMP Tasks	1048576
+Dynamic Tasking	1048576
+Explicit Work Queue	1048576
+Adaptive	1048576

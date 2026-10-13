@@ -1,0 +1,102 @@
+MINIMAL CUT BENCHMARK RESULTS
+========================================
+
+Graph file: graphs/mesh/M5x5.txt
+Vertices: 25
+Edges: 40
+Threads: 20
+
+============================================================
+
+SOLVER RESULTS
+
+============================================================
+
+Solver: Sequential
+Minimal cuts: 8742
+
+Candidates: 8388608
+Minimal cuts: 8742
+Connectivity tests: 8960230
+Minimality tests: 8388608
+Branches: 1
+Elapsed time (s): 7.4378
+
+============================================================
+
+Solver: OpenMP Sections
+Minimal cuts: 8742
+
+Candidates: 8388608
+Minimal cuts: 8742
+Connectivity tests: 8960230
+Minimality tests: 8388608
+Branches: 40
+Elapsed time (s): 0.911785
+
+============================================================
+
+Solver: OpenMP Tasks
+Minimal cuts: 8742
+
+Candidates: 8388608
+Minimal cuts: 8742
+Connectivity tests: 8960230
+Minimality tests: 8388608
+Branches: 40
+Elapsed time (s): 0.727052
+
+============================================================
+
+Solver: Dynamic Tasking
+Minimal cuts: 8742
+
+Candidates: 8388608
+Minimal cuts: 8742
+Connectivity tests: 8960230
+Minimality tests: 8388608
+Branches: 40
+Elapsed time (s): 0.718329
+
+============================================================
+
+Solver: Explicit Work Queue
+Minimal cuts: 8742
+
+Candidates: 8388608
+Minimal cuts: 8742
+Connectivity tests: 8960230
+Minimality tests: 8388608
+Branches: 80
+Elapsed time (s): 0.71966
+
+============================================================
+
+Solver: Adaptive
+Minimal cuts: 8742
+
+Candidates: 8388608
+Minimal cuts: 8742
+Connectivity tests: 8960230
+Minimality tests: 8388608
+Branches: 40
+Elapsed time (s): 0.712648
+
+============================================================
+
+SUMMARY
+=======
+
+Graph file: graphs/mesh/M5x5.txt
+Vertices: 25
+Edges: 40
+Threads: 20
+
+Solver	Minimal Cuts
+----------------------------------------
+Sequential	8742
+OpenMP Sections	8742
+OpenMP Tasks	8742
+Dynamic Tasking	8742
+Explicit Work Queue	8742
+Adaptive	8742

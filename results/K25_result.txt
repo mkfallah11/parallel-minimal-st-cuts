@@ -1,0 +1,102 @@
+MINIMAL CUT BENCHMARK RESULTS
+========================================
+
+Graph file: graphs/complete/K25.txt
+Vertices: 25
+Edges: 300
+Threads: 20
+
+============================================================
+
+SOLVER RESULTS
+
+============================================================
+
+Solver: Sequential
+Minimal cuts: 8388608
+
+Candidates: 8388608
+Minimal cuts: 8388608
+Connectivity tests: 16777216
+Minimality tests: 8388608
+Branches: 1
+Elapsed time (s): 254.547
+
+============================================================
+
+Solver: OpenMP Sections
+Minimal cuts: 8388608
+
+Candidates: 8388608
+Minimal cuts: 8388608
+Connectivity tests: 16777216
+Minimality tests: 8388608
+Branches: 40
+Elapsed time (s): 77.1463
+
+============================================================
+
+Solver: OpenMP Tasks
+Minimal cuts: 8388608
+
+Candidates: 8388608
+Minimal cuts: 8388608
+Connectivity tests: 16777216
+Minimality tests: 8388608
+Branches: 40
+Elapsed time (s): 121.916
+
+============================================================
+
+Solver: Dynamic Tasking
+Minimal cuts: 8388608
+
+Candidates: 8388608
+Minimal cuts: 8388608
+Connectivity tests: 16777216
+Minimality tests: 8388608
+Branches: 40
+Elapsed time (s): 162.126
+
+============================================================
+
+Solver: Explicit Work Queue
+Minimal cuts: 8388608
+
+Candidates: 8388608
+Minimal cuts: 8388608
+Connectivity tests: 16777216
+Minimality tests: 8388608
+Branches: 80
+Elapsed time (s): 86.3415
+
+============================================================
+
+Solver: Adaptive
+Minimal cuts: 8388608
+
+Candidates: 8388608
+Minimal cuts: 8388608
+Connectivity tests: 16777216
+Minimality tests: 8388608
+Branches: 40
+Elapsed time (s): 667.562
+
+============================================================
+
+SUMMARY
+=======
+
+Graph file: graphs/complete/K25.txt
+Vertices: 25
+Edges: 300
+Threads: 20
+
+Solver	Minimal Cuts
+----------------------------------------
+Sequential	8388608
+OpenMP Sections	8388608
+OpenMP Tasks	8388608
+Dynamic Tasking	8388608
+Explicit Work Queue	8388608
+Adaptive	8388608

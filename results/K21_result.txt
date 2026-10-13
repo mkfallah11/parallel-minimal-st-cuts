@@ -1,0 +1,102 @@
+MINIMAL CUT BENCHMARK RESULTS
+========================================
+
+Graph file: graphs/complete/K21.txt
+Vertices: 21
+Edges: 210
+Threads: 20
+
+============================================================
+
+SOLVER RESULTS
+
+============================================================
+
+Solver: Sequential
+Minimal cuts: 524288
+
+Candidates: 524288
+Minimal cuts: 524288
+Connectivity tests: 1048576
+Minimality tests: 524288
+Branches: 1
+Elapsed time (s): 7.57604
+
+============================================================
+
+Solver: OpenMP Sections
+Minimal cuts: 524288
+
+Candidates: 524288
+Minimal cuts: 524288
+Connectivity tests: 1048576
+Minimality tests: 524288
+Branches: 40
+Elapsed time (s): 1.03493
+
+============================================================
+
+Solver: OpenMP Tasks
+Minimal cuts: 524288
+
+Candidates: 524288
+Minimal cuts: 524288
+Connectivity tests: 1048576
+Minimality tests: 524288
+Branches: 40
+Elapsed time (s): 0.867084
+
+============================================================
+
+Solver: Dynamic Tasking
+Minimal cuts: 524288
+
+Candidates: 524288
+Minimal cuts: 524288
+Connectivity tests: 1048576
+Minimality tests: 524288
+Branches: 40
+Elapsed time (s): 0.858215
+
+============================================================
+
+Solver: Explicit Work Queue
+Minimal cuts: 524288
+
+Candidates: 524288
+Minimal cuts: 524288
+Connectivity tests: 1048576
+Minimality tests: 524288
+Branches: 80
+Elapsed time (s): 0.879651
+
+============================================================
+
+Solver: Adaptive
+Minimal cuts: 524288
+
+Candidates: 524288
+Minimal cuts: 524288
+Connectivity tests: 1048576
+Minimality tests: 524288
+Branches: 40
+Elapsed time (s): 0.939074
+
+============================================================
+
+SUMMARY
+=======
+
+Graph file: graphs/complete/K21.txt
+Vertices: 21
+Edges: 210
+Threads: 20
+
+Solver	Minimal Cuts
+----------------------------------------
+Sequential	524288
+OpenMP Sections	524288
+OpenMP Tasks	524288
+Dynamic Tasking	524288
+Explicit Work Queue	524288
+Adaptive	524288

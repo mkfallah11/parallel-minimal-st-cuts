@@ -1,0 +1,102 @@
+MINIMAL CUT BENCHMARK RESULTS
+========================================
+
+Graph file: graphs/mesh/M4x4.txt
+Vertices: 16
+Edges: 24
+Threads: 20
+
+============================================================
+
+SOLVER RESULTS
+
+============================================================
+
+Solver: Sequential
+Minimal cuts: 348
+
+Candidates: 16384
+Minimal cuts: 348
+Connectivity tests: 19254
+Minimality tests: 16384
+Branches: 1
+Elapsed time (s): 0.017123
+
+============================================================
+
+Solver: OpenMP Sections
+Minimal cuts: 348
+
+Candidates: 16384
+Minimal cuts: 348
+Connectivity tests: 19254
+Minimality tests: 16384
+Branches: 40
+Elapsed time (s): 0.00526
+
+============================================================
+
+Solver: OpenMP Tasks
+Minimal cuts: 348
+
+Candidates: 16384
+Minimal cuts: 348
+Connectivity tests: 19254
+Minimality tests: 16384
+Branches: 40
+Elapsed time (s): 0.003411
+
+============================================================
+
+Solver: Dynamic Tasking
+Minimal cuts: 348
+
+Candidates: 16384
+Minimal cuts: 348
+Connectivity tests: 19254
+Minimality tests: 16384
+Branches: 40
+Elapsed time (s): 0.003218
+
+============================================================
+
+Solver: Explicit Work Queue
+Minimal cuts: 348
+
+Candidates: 16384
+Minimal cuts: 348
+Connectivity tests: 19254
+Minimality tests: 16384
+Branches: 80
+Elapsed time (s): 0.003151
+
+============================================================
+
+Solver: Adaptive
+Minimal cuts: 348
+
+Candidates: 16384
+Minimal cuts: 348
+Connectivity tests: 19254
+Minimality tests: 16384
+Branches: 40
+Elapsed time (s): 0.002987
+
+============================================================
+
+SUMMARY
+=======
+
+Graph file: graphs/mesh/M4x4.txt
+Vertices: 16
+Edges: 24
+Threads: 20
+
+Solver	Minimal Cuts
+----------------------------------------
+Sequential	348
+OpenMP Sections	348
+OpenMP Tasks	348
+Dynamic Tasking	348
+Explicit Work Queue	348
+Adaptive	348

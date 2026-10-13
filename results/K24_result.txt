@@ -1,0 +1,102 @@
+MINIMAL CUT BENCHMARK RESULTS
+========================================
+
+Graph file: graphs/complete/K24.txt
+Vertices: 24
+Edges: 276
+Threads: 20
+
+============================================================
+
+SOLVER RESULTS
+
+============================================================
+
+Solver: Sequential
+Minimal cuts: 4194304
+
+Candidates: 4194304
+Minimal cuts: 4194304
+Connectivity tests: 8388608
+Minimality tests: 4194304
+Branches: 1
+Elapsed time (s): 78.1517
+
+============================================================
+
+Solver: OpenMP Sections
+Minimal cuts: 4194304
+
+Candidates: 4194304
+Minimal cuts: 4194304
+Connectivity tests: 8388608
+Minimality tests: 4194304
+Branches: 40
+Elapsed time (s): 12.1566
+
+============================================================
+
+Solver: OpenMP Tasks
+Minimal cuts: 4194304
+
+Candidates: 4194304
+Minimal cuts: 4194304
+Connectivity tests: 8388608
+Minimality tests: 4194304
+Branches: 40
+Elapsed time (s): 10.8051
+
+============================================================
+
+Solver: Dynamic Tasking
+Minimal cuts: 4194304
+
+Candidates: 4194304
+Minimal cuts: 4194304
+Connectivity tests: 8388608
+Minimality tests: 4194304
+Branches: 40
+Elapsed time (s): 11.3226
+
+============================================================
+
+Solver: Explicit Work Queue
+Minimal cuts: 4194304
+
+Candidates: 4194304
+Minimal cuts: 4194304
+Connectivity tests: 8388608
+Minimality tests: 4194304
+Branches: 80
+Elapsed time (s): 9.8898
+
+============================================================
+
+Solver: Adaptive
+Minimal cuts: 4194304
+
+Candidates: 4194304
+Minimal cuts: 4194304
+Connectivity tests: 8388608
+Minimality tests: 4194304
+Branches: 40
+Elapsed time (s): 20.2786
+
+============================================================
+
+SUMMARY
+=======
+
+Graph file: graphs/complete/K24.txt
+Vertices: 24
+Edges: 276
+Threads: 20
+
+Solver	Minimal Cuts
+----------------------------------------
+Sequential	4194304
+OpenMP Sections	4194304
+OpenMP Tasks	4194304
+Dynamic Tasking	4194304
+Explicit Work Queue	4194304
+Adaptive	4194304

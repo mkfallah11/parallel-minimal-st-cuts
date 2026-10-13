@@ -1,0 +1,649 @@
+RANDOM GRAPH FAMILY BENCHMARK
+=============================
+
+Maximum available threads: 20
+Expected graphs per family: 100
+Graph pattern: Gnm_nXX_dYY_rZZZ.txt
+Thread counts: 1, 2, 4, 8, 12, 16, 20
+
+Sequential always uses one thread.
+Parallel solvers are tested with every listed thread count.
+
+============================================================
+Family: n=12, d=04
+============================================================
+Graphs processed: 700 / 100
+
+Graph Statistics
+----------------
+Average edges:             20.571
+Average minimal cuts:      203.357
+Minimum minimal cuts:      1
+Maximum minimal cuts:      421
+
+Average Solver Execution Time (ms)
+----------------------------------
+Solver                        Threads        Average ms         Average s
+-------------------------------------------------------------------------
+Sequential                          1             0.299             0.000
+OpenMP Sections                     1             0.320             0.000
+OpenMP Sections                     2             0.239             0.000
+OpenMP Sections                     4             0.156             0.000
+OpenMP Sections                     8             0.155             0.000
+OpenMP Sections                    12             0.145             0.000
+OpenMP Sections                    16             0.132             0.000
+OpenMP Sections                    20             0.102             0.000
+OpenMP Tasks                        1             0.298             0.000
+OpenMP Tasks                        2             0.188             0.000
+OpenMP Tasks                        4             0.125             0.000
+OpenMP Tasks                        8             0.101             0.000
+OpenMP Tasks                       12             0.118             0.000
+OpenMP Tasks                       16             0.107             0.000
+OpenMP Tasks                       20             0.149             0.000
+Dynamic Tasking                     1             0.301             0.000
+Dynamic Tasking                     2             0.179             0.000
+Dynamic Tasking                     4             0.117             0.000
+Dynamic Tasking                     8             0.093             0.000
+Dynamic Tasking                    12             0.091             0.000
+Dynamic Tasking                    16             0.084             0.000
+Dynamic Tasking                    20             0.092             0.000
+Explicit Work Queue                 1             0.327             0.000
+Explicit Work Queue                 2             0.186             0.000
+Explicit Work Queue                 4             0.118             0.000
+Explicit Work Queue                 8             0.091             0.000
+Explicit Work Queue                12             0.087             0.000
+Explicit Work Queue                16             0.088             0.000
+Explicit Work Queue                20             0.088             0.000
+Adaptive                            1             0.316             0.000
+Adaptive                            2             0.179             0.000
+Adaptive                            4             0.119             0.000
+Adaptive                            8             0.089             0.000
+Adaptive                           12             0.085             0.000
+Adaptive                           16             0.079             0.000
+Adaptive                           20             0.087             0.000
+
+============================================================
+Family: n=12, d=06
+============================================================
+Graphs processed: 700 / 100
+
+Graph Statistics
+----------------
+Average edges:             30.857
+Average minimal cuts:      643.697
+Minimum minimal cuts:      456
+Maximum minimal cuts:      875
+
+Average Solver Execution Time (ms)
+----------------------------------
+Solver                        Threads        Average ms         Average s
+-------------------------------------------------------------------------
+Sequential                          1             1.201             0.001
+OpenMP Sections                     1             1.283             0.001
+OpenMP Sections                     2             0.846             0.001
+OpenMP Sections                     4             0.653             0.001
+OpenMP Sections                     8             0.545             0.001
+OpenMP Sections                    12             0.480             0.000
+OpenMP Sections                    16             0.477             0.000
+OpenMP Sections                    20             0.425             0.000
+OpenMP Tasks                        1             1.224             0.001
+OpenMP Tasks                        2             0.800             0.001
+OpenMP Tasks                        4             0.548             0.001
+OpenMP Tasks                        8             0.436             0.000
+OpenMP Tasks                       12             0.439             0.000
+OpenMP Tasks                       16             0.457             0.000
+OpenMP Tasks                       20             0.485             0.000
+Dynamic Tasking                     1             1.214             0.001
+Dynamic Tasking                     2             0.785             0.001
+Dynamic Tasking                     4             0.611             0.001
+Dynamic Tasking                     8             0.470             0.000
+Dynamic Tasking                    12             0.416             0.000
+Dynamic Tasking                    16             0.416             0.000
+Dynamic Tasking                    20             0.388             0.000
+Explicit Work Queue                 1             1.230             0.001
+Explicit Work Queue                 2             0.825             0.001
+Explicit Work Queue                 4             0.540             0.001
+Explicit Work Queue                 8             0.429             0.000
+Explicit Work Queue                12             0.411             0.000
+Explicit Work Queue                16             0.388             0.000
+Explicit Work Queue                20             0.403             0.000
+Adaptive                            1             1.161             0.001
+Adaptive                            2             0.766             0.001
+Adaptive                            4             0.525             0.001
+Adaptive                            8             0.403             0.000
+Adaptive                           12             0.369             0.000
+Adaptive                           16             0.398             0.000
+Adaptive                           20             0.375             0.000
+
+============================================================
+Family: n=12, d=08
+============================================================
+Graphs processed: 700 / 100
+
+Graph Statistics
+----------------
+Average edges:             41.143
+Average minimal cuts:      834.163
+Minimum minimal cuts:      897
+Maximum minimal cuts:      1022
+
+Average Solver Execution Time (ms)
+----------------------------------
+Solver                        Threads        Average ms         Average s
+-------------------------------------------------------------------------
+Sequential                          1             1.932             0.002
+OpenMP Sections                     1             2.069             0.002
+OpenMP Sections                     2             1.694             0.002
+OpenMP Sections                     4             1.130             0.001
+OpenMP Sections                     8             0.786             0.001
+OpenMP Sections                    12             0.670             0.001
+OpenMP Sections                    16             0.636             0.001
+OpenMP Sections                    20             0.691             0.001
+OpenMP Tasks                        1             1.991             0.002
+OpenMP Tasks                        2             1.491             0.001
+OpenMP Tasks                        4             0.948             0.001
+OpenMP Tasks                        8             0.655             0.001
+OpenMP Tasks                       12             0.622             0.001
+OpenMP Tasks                       16             0.641             0.001
+OpenMP Tasks                       20             0.690             0.001
+Dynamic Tasking                     1             1.946             0.002
+Dynamic Tasking                     2             1.456             0.001
+Dynamic Tasking                     4             0.960             0.001
+Dynamic Tasking                     8             0.691             0.001
+Dynamic Tasking                    12             0.636             0.001
+Dynamic Tasking                    16             0.652             0.001
+Dynamic Tasking                    20             0.698             0.001
+Explicit Work Queue                 1             1.960             0.002
+Explicit Work Queue                 2             1.430             0.001
+Explicit Work Queue                 4             0.796             0.001
+Explicit Work Queue                 8             0.635             0.001
+Explicit Work Queue                12             0.600             0.001
+Explicit Work Queue                16             0.628             0.001
+Explicit Work Queue                20             0.660             0.001
+Adaptive                            1             1.919             0.002
+Adaptive                            2             1.378             0.001
+Adaptive                            4             0.770             0.001
+Adaptive                            8             0.551             0.001
+Adaptive                           12             0.540             0.001
+Adaptive                           16             0.570             0.001
+Adaptive                           20             0.604             0.001
+
+============================================================
+Family: n=16, d=04
+============================================================
+Graphs processed: 700 / 100
+
+Graph Statistics
+----------------
+Average edges:             27.429
+Average minimal cuts:      1572.343
+Minimum minimal cuts:      310
+Maximum minimal cuts:      3869
+
+Average Solver Execution Time (ms)
+----------------------------------
+Solver                        Threads        Average ms         Average s
+-------------------------------------------------------------------------
+Sequential                          1             8.124             0.008
+OpenMP Sections                     1             9.876             0.010
+OpenMP Sections                     2             7.731             0.008
+OpenMP Sections                     4             4.313             0.004
+OpenMP Sections                     8             2.804             0.003
+OpenMP Sections                    12             1.883             0.002
+OpenMP Sections                    16             1.660             0.002
+OpenMP Sections                    20             1.628             0.002
+OpenMP Tasks                        1             9.057             0.009
+OpenMP Tasks                        2             6.444             0.006
+OpenMP Tasks                        4             4.047             0.004
+OpenMP Tasks                        8             2.291             0.002
+OpenMP Tasks                       12             1.736             0.002
+OpenMP Tasks                       16             1.561             0.002
+OpenMP Tasks                       20             1.668             0.002
+Dynamic Tasking                     1             8.060             0.008
+Dynamic Tasking                     2             6.030             0.006
+Dynamic Tasking                     4             3.424             0.003
+Dynamic Tasking                     8             2.022             0.002
+Dynamic Tasking                    12             1.648             0.002
+Dynamic Tasking                    16             1.586             0.002
+Dynamic Tasking                    20             1.603             0.002
+Explicit Work Queue                 1             7.736             0.008
+Explicit Work Queue                 2             5.941             0.006
+Explicit Work Queue                 4             2.990             0.003
+Explicit Work Queue                 8             1.728             0.002
+Explicit Work Queue                12             1.472             0.001
+Explicit Work Queue                16             1.438             0.001
+Explicit Work Queue                20             1.444             0.001
+Adaptive                            1             8.031             0.008
+Adaptive                            2             5.484             0.005
+Adaptive                            4             2.801             0.003
+Adaptive                            8             1.721             0.002
+Adaptive                           12             1.453             0.001
+Adaptive                           16             1.422             0.001
+Adaptive                           20             1.401             0.001
+
+============================================================
+Family: n=16, d=06
+============================================================
+Graphs processed: 700 / 100
+
+Graph Statistics
+----------------
+Average edges:             41.143
+Average minimal cuts:      7796.966
+Minimum minimal cuts:      4898
+Maximum minimal cuts:      12159
+
+Average Solver Execution Time (ms)
+----------------------------------
+Solver                        Threads        Average ms         Average s
+-------------------------------------------------------------------------
+Sequential                          1            20.284             0.020
+OpenMP Sections                     1            25.970             0.026
+OpenMP Sections                     2            17.282             0.017
+OpenMP Sections                     4            10.076             0.010
+OpenMP Sections                     8             5.875             0.006
+OpenMP Sections                    12             4.416             0.004
+OpenMP Sections                    16             4.340             0.004
+OpenMP Sections                    20             4.289             0.004
+OpenMP Tasks                        1            21.364             0.021
+OpenMP Tasks                        2            13.206             0.013
+OpenMP Tasks                        4             7.612             0.008
+OpenMP Tasks                        8             5.686             0.006
+OpenMP Tasks                       12             3.888             0.004
+OpenMP Tasks                       16             3.917             0.004
+OpenMP Tasks                       20             4.011             0.004
+Dynamic Tasking                     1            20.078             0.020
+Dynamic Tasking                     2            13.324             0.013
+Dynamic Tasking                     4             7.084             0.007
+Dynamic Tasking                     8             4.882             0.005
+Dynamic Tasking                    12             3.652             0.004
+Dynamic Tasking                    16             3.651             0.004
+Dynamic Tasking                    20             3.666             0.004
+Explicit Work Queue                 1            21.407             0.021
+Explicit Work Queue                 2            13.353             0.013
+Explicit Work Queue                 4             6.982             0.007
+Explicit Work Queue                 8             4.063             0.004
+Explicit Work Queue                12             3.712             0.004
+Explicit Work Queue                16             3.678             0.004
+Explicit Work Queue                20             3.713             0.004
+Adaptive                            1            21.701             0.022
+Adaptive                            2            12.269             0.012
+Adaptive                            4             6.636             0.007
+Adaptive                            8             3.836             0.004
+Adaptive                           12             3.642             0.004
+Adaptive                           16             3.552             0.004
+Adaptive                           20             3.564             0.004
+
+============================================================
+Family: n=16, d=08
+============================================================
+Graphs processed: 700 / 100
+
+Graph Statistics
+----------------
+Average edges:             54.857
+Average minimal cuts:      12369.514
+Minimum minimal cuts:      11482
+Maximum minimal cuts:      15708
+
+Average Solver Execution Time (ms)
+----------------------------------
+Solver                        Threads        Average ms         Average s
+-------------------------------------------------------------------------
+Sequential                          1            33.365             0.033
+OpenMP Sections                     1            37.096             0.037
+OpenMP Sections                     2            22.513             0.023
+OpenMP Sections                     4            13.591             0.014
+OpenMP Sections                     8             9.267             0.009
+OpenMP Sections                    12             6.798             0.007
+OpenMP Sections                    16             6.883             0.007
+OpenMP Sections                    20             6.750             0.007
+OpenMP Tasks                        1            29.476             0.029
+OpenMP Tasks                        2            17.924             0.018
+OpenMP Tasks                        4             9.728             0.010
+OpenMP Tasks                        8             8.966             0.009
+OpenMP Tasks                       12             5.842             0.006
+OpenMP Tasks                       16             5.887             0.006
+OpenMP Tasks                       20             5.854             0.006
+Dynamic Tasking                     1            30.217             0.030
+Dynamic Tasking                     2            17.724             0.018
+Dynamic Tasking                     4             9.632             0.010
+Dynamic Tasking                     8             5.950             0.006
+Dynamic Tasking                    12             5.705             0.006
+Dynamic Tasking                    16             5.600             0.006
+Dynamic Tasking                    20             5.564             0.006
+Explicit Work Queue                 1            31.888             0.032
+Explicit Work Queue                 2            19.158             0.019
+Explicit Work Queue                 4             9.900             0.010
+Explicit Work Queue                 8             5.985             0.006
+Explicit Work Queue                12             5.825             0.006
+Explicit Work Queue                16             5.710             0.006
+Explicit Work Queue                20             5.743             0.006
+Adaptive                            1            32.396             0.032
+Adaptive                            2            18.107             0.018
+Adaptive                            4             9.637             0.010
+Adaptive                            8             5.760             0.006
+Adaptive                           12             5.660             0.006
+Adaptive                           16             5.575             0.006
+Adaptive                           20             5.559             0.006
+
+============================================================
+Family: n=20, d=04
+============================================================
+Graphs processed: 700 / 100
+
+Graph Statistics
+----------------
+Average edges:             34.286
+Average minimal cuts:      11594.846
+Minimum minimal cuts:      1
+Maximum minimal cuts:      28734
+
+Average Solver Execution Time (ms)
+----------------------------------
+Solver                        Threads        Average ms         Average s
+-------------------------------------------------------------------------
+Sequential                          1           121.883             0.122
+OpenMP Sections                     1           122.538             0.123
+OpenMP Sections                     2            71.160             0.071
+OpenMP Sections                     4            39.577             0.040
+OpenMP Sections                     8            23.811             0.024
+OpenMP Sections                    12            22.332             0.022
+OpenMP Sections                    16            21.024             0.021
+OpenMP Sections                    20            20.893             0.021
+OpenMP Tasks                        1           118.464             0.118
+OpenMP Tasks                        2            68.059             0.068
+OpenMP Tasks                        4            36.241             0.036
+OpenMP Tasks                        8            20.920             0.021
+OpenMP Tasks                       12            20.022             0.020
+OpenMP Tasks                       16            19.519             0.020
+OpenMP Tasks                       20            19.293             0.019
+Dynamic Tasking                     1           116.481             0.116
+Dynamic Tasking                     2            68.274             0.068
+Dynamic Tasking                     4            36.746             0.037
+Dynamic Tasking                     8            20.698             0.021
+Dynamic Tasking                    12            20.033             0.020
+Dynamic Tasking                    16            19.348             0.019
+Dynamic Tasking                    20            19.231             0.019
+Explicit Work Queue                 1           116.691             0.117
+Explicit Work Queue                 2            68.792             0.069
+Explicit Work Queue                 4            36.478             0.036
+Explicit Work Queue                 8            20.056             0.020
+Explicit Work Queue                12            19.640             0.020
+Explicit Work Queue                16            18.959             0.019
+Explicit Work Queue                20            19.071             0.019
+Adaptive                            1           117.763             0.118
+Adaptive                            2            68.021             0.068
+Adaptive                            4            36.926             0.037
+Adaptive                            8            20.897             0.021
+Adaptive                           12            20.233             0.020
+Adaptive                           16            19.249             0.019
+Adaptive                           20            19.225             0.019
+
+============================================================
+Family: n=20, d=06
+============================================================
+Graphs processed: 700 / 100
+
+Graph Statistics
+----------------
+Average edges:             51.429
+Average minimal cuts:      98498.606
+Minimum minimal cuts:      53456
+Maximum minimal cuts:      172844
+
+Average Solver Execution Time (ms)
+----------------------------------
+Solver                        Threads        Average ms         Average s
+-------------------------------------------------------------------------
+Sequential                          1           339.386             0.339
+OpenMP Sections                     1           343.672             0.344
+OpenMP Sections                     2           205.480             0.205
+OpenMP Sections                     4           116.971             0.117
+OpenMP Sections                     8            76.519             0.077
+OpenMP Sections                    12            71.939             0.072
+OpenMP Sections                    16            71.502             0.072
+OpenMP Sections                    20            70.708             0.071
+OpenMP Tasks                        1           317.869             0.318
+OpenMP Tasks                        2           196.008             0.196
+OpenMP Tasks                        4           110.242             0.110
+OpenMP Tasks                        8            68.446             0.068
+OpenMP Tasks                       12            67.596             0.068
+OpenMP Tasks                       16            66.271             0.066
+OpenMP Tasks                       20            66.904             0.067
+Dynamic Tasking                     1           316.004             0.316
+Dynamic Tasking                     2           195.802             0.196
+Dynamic Tasking                     4           109.915             0.110
+Dynamic Tasking                     8            67.294             0.067
+Dynamic Tasking                    12            65.650             0.066
+Dynamic Tasking                    16            65.716             0.066
+Dynamic Tasking                    20            65.277             0.065
+Explicit Work Queue                 1           331.523             0.332
+Explicit Work Queue                 2           205.220             0.205
+Explicit Work Queue                 4           112.578             0.113
+Explicit Work Queue                 8            69.714             0.070
+Explicit Work Queue                12            66.544             0.067
+Explicit Work Queue                16            64.549             0.065
+Explicit Work Queue                20            64.907             0.065
+Adaptive                            1           333.666             0.334
+Adaptive                            2           194.463             0.194
+Adaptive                            4           109.544             0.110
+Adaptive                            8            67.004             0.067
+Adaptive                           12            67.457             0.067
+Adaptive                           16            65.292             0.065
+Adaptive                           20            64.267             0.064
+
+============================================================
+Family: n=20, d=08
+============================================================
+Graphs processed: 700 / 100
+
+Graph Statistics
+----------------
+Average edges:             68.571
+Average minimal cuts:      179665.680
+Minimum minimal cuts:      165213
+Maximum minimal cuts:      236396
+
+Average Solver Execution Time (ms)
+----------------------------------
+Solver                        Threads        Average ms         Average s
+-------------------------------------------------------------------------
+Sequential                          1           486.636             0.487
+OpenMP Sections                     1           500.071             0.500
+OpenMP Sections                     2           300.787             0.301
+OpenMP Sections                     4           169.508             0.170
+OpenMP Sections                     8           110.454             0.110
+OpenMP Sections                    12           103.952             0.104
+OpenMP Sections                    16           103.343             0.103
+OpenMP Sections                    20           100.902             0.101
+OpenMP Tasks                        1           451.998             0.452
+OpenMP Tasks                        2           284.463             0.284
+OpenMP Tasks                        4           165.496             0.165
+OpenMP Tasks                        8           102.557             0.103
+OpenMP Tasks                       12           101.709             0.102
+OpenMP Tasks                       16            97.456             0.097
+OpenMP Tasks                       20            95.436             0.095
+Dynamic Tasking                     1           449.376             0.449
+Dynamic Tasking                     2           281.432             0.281
+Dynamic Tasking                     4           162.178             0.162
+Dynamic Tasking                     8           103.588             0.104
+Dynamic Tasking                    12            98.744             0.099
+Dynamic Tasking                    16            96.181             0.096
+Dynamic Tasking                    20            92.880             0.093
+Explicit Work Queue                 1           484.310             0.484
+Explicit Work Queue                 2           300.289             0.300
+Explicit Work Queue                 4           165.360             0.165
+Explicit Work Queue                 8           102.617             0.103
+Explicit Work Queue                12            98.894             0.099
+Explicit Work Queue                16            96.798             0.097
+Explicit Work Queue                20            95.658             0.096
+Adaptive                            1           479.638             0.480
+Adaptive                            2           281.957             0.282
+Adaptive                            4           165.509             0.166
+Adaptive                            8           102.220             0.102
+Adaptive                           12            98.472             0.098
+Adaptive                           16            95.638             0.096
+Adaptive                           20            96.912             0.097
+
+============================================================
+Family: n=24, d=04
+============================================================
+Graphs processed: 700 / 100
+
+Graph Statistics
+----------------
+Average edges:             41.143
+Average minimal cuts:      99243.754
+Minimum minimal cuts:      14774
+Maximum minimal cuts:      273035
+
+Average Solver Execution Time (ms)
+----------------------------------
+Solver                        Threads        Average ms         Average s
+-------------------------------------------------------------------------
+Sequential                          1          1042.539             1.043
+OpenMP Sections                     1          1050.405             1.050
+OpenMP Sections                     2           585.821             0.586
+OpenMP Sections                     4           311.369             0.311
+OpenMP Sections                     8           183.982             0.184
+OpenMP Sections                    12           161.082             0.161
+OpenMP Sections                    16           144.100             0.144
+OpenMP Sections                    20           143.195             0.143
+OpenMP Tasks                        1          1039.625             1.040
+OpenMP Tasks                        2           578.103             0.578
+OpenMP Tasks                        4           311.766             0.312
+OpenMP Tasks                        8           177.586             0.178
+OpenMP Tasks                       12           153.665             0.154
+OpenMP Tasks                       16           139.414             0.139
+OpenMP Tasks                       20           130.774             0.131
+Dynamic Tasking                     1          1050.847             1.051
+Dynamic Tasking                     2           600.926             0.601
+Dynamic Tasking                     4           323.111             0.323
+Dynamic Tasking                     8           183.258             0.183
+Dynamic Tasking                    12           158.911             0.159
+Dynamic Tasking                    16           139.359             0.139
+Dynamic Tasking                    20           130.457             0.130
+Explicit Work Queue                 1          1044.927             1.045
+Explicit Work Queue                 2           600.823             0.601
+Explicit Work Queue                 4           316.121             0.316
+Explicit Work Queue                 8           178.437             0.178
+Explicit Work Queue                12           151.827             0.152
+Explicit Work Queue                16           134.783             0.135
+Explicit Work Queue                20           124.292             0.124
+Adaptive                            1          1061.618             1.062
+Adaptive                            2           601.064             0.601
+Adaptive                            4           318.367             0.318
+Adaptive                            8           185.563             0.186
+Adaptive                           12           157.744             0.158
+Adaptive                           16           141.374             0.141
+Adaptive                           20           130.657             0.131
+
+============================================================
+Family: n=24, d=06
+============================================================
+Graphs processed: 700 / 100
+
+Graph Statistics
+----------------
+Average edges:             61.714
+Average minimal cuts:      1284886.783
+Minimum minimal cuts:      487915
+Maximum minimal cuts:      2396165
+
+Average Solver Execution Time (ms)
+----------------------------------
+Solver                        Threads        Average ms         Average s
+-------------------------------------------------------------------------
+Sequential                          1          2468.111             2.468
+OpenMP Sections                     1          2557.971             2.558
+OpenMP Sections                     2          1420.304             1.420
+OpenMP Sections                     4           771.401             0.771
+OpenMP Sections                     8           494.725             0.495
+OpenMP Sections                    12           420.039             0.420
+OpenMP Sections                    16           378.674             0.379
+OpenMP Sections                    20           403.096             0.403
+OpenMP Tasks                        1          2493.298             2.493
+OpenMP Tasks                        2          1374.075             1.374
+OpenMP Tasks                        4           785.805             0.786
+OpenMP Tasks                        8           506.185             0.506
+OpenMP Tasks                       12           424.608             0.425
+OpenMP Tasks                       16           401.118             0.401
+OpenMP Tasks                       20           380.728             0.381
+Dynamic Tasking                     1          2562.746             2.563
+Dynamic Tasking                     2          1380.259             1.380
+Dynamic Tasking                     4           775.731             0.776
+Dynamic Tasking                     8           507.895             0.508
+Dynamic Tasking                    12           427.821             0.428
+Dynamic Tasking                    16           401.438             0.401
+Dynamic Tasking                    20           376.282             0.376
+Explicit Work Queue                 1          2658.724             2.659
+Explicit Work Queue                 2          1401.005             1.401
+Explicit Work Queue                 4           785.255             0.785
+Explicit Work Queue                 8           488.744             0.489
+Explicit Work Queue                12           409.341             0.409
+Explicit Work Queue                16           386.075             0.386
+Explicit Work Queue                20           349.419             0.349
+Adaptive                            1          2651.137             2.651
+Adaptive                            2          1374.453             1.374
+Adaptive                            4           780.016             0.780
+Adaptive                            8           505.294             0.505
+Adaptive                           12           426.326             0.426
+Adaptive                           16           407.722             0.408
+Adaptive                           20           368.811             0.369
+
+============================================================
+Family: n=24, d=08
+============================================================
+Graphs processed: 700 / 100
+
+Graph Statistics
+----------------
+Average edges:             82.286
+Average minimal cuts:      2688202.723
+Minimum minimal cuts:      1556385
+Maximum minimal cuts:      3639999
+
+Average Solver Execution Time (ms)
+----------------------------------
+Solver                        Threads        Average ms         Average s
+-------------------------------------------------------------------------
+Sequential                          1          5877.353             5.877
+OpenMP Sections                     1          6056.487             6.056
+OpenMP Sections                     2          3358.197             3.358
+OpenMP Sections                     4          2034.061             2.034
+OpenMP Sections                     8          1389.788             1.390
+OpenMP Sections                    12          1262.387             1.262
+OpenMP Sections                    16          1225.654             1.226
+OpenMP Sections                    20          1217.492             1.217
+OpenMP Tasks                        1          5757.163             5.757
+OpenMP Tasks                        2          3325.744             3.326
+OpenMP Tasks                        4          2102.061             2.102
+OpenMP Tasks                        8          1575.758             1.576
+OpenMP Tasks                       12          1546.790             1.547
+OpenMP Tasks                       16          1445.784             1.446
+OpenMP Tasks                       20          1353.324             1.353
+Dynamic Tasking                     1          6007.048             6.007
+Dynamic Tasking                     2          3392.988             3.393
+Dynamic Tasking                     4          2111.925             2.112
+Dynamic Tasking                     8          1583.673             1.584
+Dynamic Tasking                    12          1541.199             1.541
+Dynamic Tasking                    16          1420.448             1.420
+Dynamic Tasking                    20          1330.398             1.330
+Explicit Work Queue                 1          6304.432             6.304
+Explicit Work Queue                 2          3337.724             3.338
+Explicit Work Queue                 4          2001.491             2.001
+Explicit Work Queue                 8          1372.208             1.372
+Explicit Work Queue                12          1275.325             1.275
+Explicit Work Queue                16          1171.741             1.172
+Explicit Work Queue                20          1084.739             1.085
+Adaptive                            1          6324.628             6.325
+Adaptive                            2          3404.194             3.404
+Adaptive                            4          2107.973             2.108
+Adaptive                            8          1565.372             1.565
+Adaptive                           12          1495.636             1.496
+Adaptive                           16          1367.538             1.368
+Adaptive                           20          1314.818             1.315
+
+============================================================
+END OF BENCHMARK

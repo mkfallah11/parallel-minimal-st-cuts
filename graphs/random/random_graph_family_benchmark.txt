@@ -1,0 +1,297 @@
+RANDOM GRAPH FAMILY BENCHMARK
+=============================
+
+Threads: 20
+Expected graphs per family: 100
+Graph pattern: Gnm_nXX_dYY_rZZZ.txt
+
+Families:
+  n = {12, 16, 20, 24}
+  d = {04, 06, 08}
+  r = {001, ..., 100}
+
+Statistics:
+  Average number of edges
+  Average number of minimal s-t cuts
+  Minimum number of minimal s-t cuts
+  Maximum number of minimal s-t cuts
+  Average execution time of each solver
+
+============================================================
+Family: n=12, d=04
+============================================================
+Graphs processed: 100 / 100
+
+Graph Statistics
+----------------
+Average edges:             24.000
+Average minimal cuts:      237.250
+Minimum minimal cuts:      1
+Maximum minimal cuts:      421
+
+Average Solver Execution Time
+-----------------------------
+Solver                                 Time (ms)            Time (s)
+--------------------------------------------------------------------
+Sequential                                 2.027               0.002
+OpenMP Sections                            0.671               0.001
+OpenMP Tasks                               0.908               0.001
+Dynamic Tasking                            0.524               0.001
+Explicit Work Queue                        0.546               0.001
+Adaptive                                   0.532               0.001
+
+============================================================
+Family: n=12, d=06
+============================================================
+Graphs processed: 100 / 100
+
+Graph Statistics
+----------------
+Average edges:             36.000
+Average minimal cuts:      750.980
+Minimum minimal cuts:      456
+Maximum minimal cuts:      875
+
+Average Solver Execution Time
+-----------------------------
+Solver                                 Time (ms)            Time (s)
+--------------------------------------------------------------------
+Sequential                                 4.562               0.005
+OpenMP Sections                            1.205               0.001
+OpenMP Tasks                               1.401               0.001
+Dynamic Tasking                            0.936               0.001
+Explicit Work Queue                        0.998               0.001
+Adaptive                                   0.951               0.001
+
+============================================================
+Family: n=12, d=08
+============================================================
+Graphs processed: 100 / 100
+
+Graph Statistics
+----------------
+Average edges:             48.000
+Average minimal cuts:      973.190
+Minimum minimal cuts:      897
+Maximum minimal cuts:      1022
+
+Average Solver Execution Time
+-----------------------------
+Solver                                 Time (ms)            Time (s)
+--------------------------------------------------------------------
+Sequential                                 6.579               0.007
+OpenMP Sections                            1.599               0.002
+OpenMP Tasks                               1.843               0.002
+Dynamic Tasking                            1.324               0.001
+Explicit Work Queue                        1.373               0.001
+Adaptive                                   1.276               0.001
+
+============================================================
+Family: n=16, d=04
+============================================================
+Graphs processed: 100 / 100
+
+Graph Statistics
+----------------
+Average edges:             32.000
+Average minimal cuts:      1834.400
+Minimum minimal cuts:      310
+Maximum minimal cuts:      3869
+
+Average Solver Execution Time
+-----------------------------
+Solver                                 Time (ms)            Time (s)
+--------------------------------------------------------------------
+Sequential                                26.470               0.026
+OpenMP Sections                            4.883               0.005
+OpenMP Tasks                               4.562               0.005
+Dynamic Tasking                            4.081               0.004
+Explicit Work Queue                        3.815               0.004
+Adaptive                                   3.902               0.004
+
+============================================================
+Family: n=16, d=06
+============================================================
+Graphs processed: 100 / 100
+
+Graph Statistics
+----------------
+Average edges:             48.000
+Average minimal cuts:      9096.460
+Minimum minimal cuts:      4898
+Maximum minimal cuts:      12159
+
+Average Solver Execution Time
+-----------------------------
+Solver                                 Time (ms)            Time (s)
+--------------------------------------------------------------------
+Sequential                                61.586               0.062
+OpenMP Sections                           12.137               0.012
+OpenMP Tasks                              10.788               0.011
+Dynamic Tasking                            9.853               0.010
+Explicit Work Queue                        9.720               0.010
+Adaptive                                   9.700               0.010
+
+============================================================
+Family: n=16, d=08
+============================================================
+Graphs processed: 100 / 100
+
+Graph Statistics
+----------------
+Average edges:             64.000
+Average minimal cuts:      14431.100
+Minimum minimal cuts:      11482
+Maximum minimal cuts:      15708
+
+Average Solver Execution Time
+-----------------------------
+Solver                                 Time (ms)            Time (s)
+--------------------------------------------------------------------
+Sequential                                96.646               0.097
+OpenMP Sections                           18.001               0.018
+OpenMP Tasks                              16.488               0.016
+Dynamic Tasking                           15.566               0.016
+Explicit Work Queue                       15.651               0.016
+Adaptive                                  14.731               0.015
+
+============================================================
+Family: n=20, d=04
+============================================================
+Graphs processed: 100 / 100
+
+Graph Statistics
+----------------
+Average edges:             40.000
+Average minimal cuts:      13527.320
+Minimum minimal cuts:      1
+Maximum minimal cuts:      28734
+
+Average Solver Execution Time
+-----------------------------
+Solver                                 Time (ms)            Time (s)
+--------------------------------------------------------------------
+Sequential                               374.705               0.375
+OpenMP Sections                           52.061               0.052
+OpenMP Tasks                              44.675               0.045
+Dynamic Tasking                           42.845               0.043
+Explicit Work Queue                       41.781               0.042
+Adaptive                                  42.886               0.043
+
+============================================================
+Family: n=20, d=06
+============================================================
+Graphs processed: 100 / 100
+
+Graph Statistics
+----------------
+Average edges:             60.000
+Average minimal cuts:      114915.040
+Minimum minimal cuts:      53456
+Maximum minimal cuts:      172844
+
+Average Solver Execution Time
+-----------------------------
+Solver                                 Time (ms)            Time (s)
+--------------------------------------------------------------------
+Sequential                              1578.697               1.579
+OpenMP Sections                          270.547               0.271
+OpenMP Tasks                             260.648               0.261
+Dynamic Tasking                          252.339               0.252
+Explicit Work Queue                      251.134               0.251
+Adaptive                                 252.828               0.253
+
+============================================================
+Family: n=20, d=08
+============================================================
+Graphs processed: 100 / 100
+
+Graph Statistics
+----------------
+Average edges:             80.000
+Average minimal cuts:      209609.960
+Minimum minimal cuts:      165213
+Maximum minimal cuts:      236396
+
+Average Solver Execution Time
+-----------------------------
+Solver                                 Time (ms)            Time (s)
+--------------------------------------------------------------------
+Sequential                              4085.173               4.085
+OpenMP Sections                          829.521               0.830
+OpenMP Tasks                             837.564               0.838
+Dynamic Tasking                          822.700               0.823
+Explicit Work Queue                      833.827               0.834
+Adaptive                                 836.150               0.836
+
+============================================================
+Family: n=24, d=04
+============================================================
+Graphs processed: 100 / 100
+
+Graph Statistics
+----------------
+Average edges:             48.000
+Average minimal cuts:      115784.380
+Minimum minimal cuts:      14774
+Maximum minimal cuts:      273035
+
+Average Solver Execution Time
+-----------------------------
+Solver                                 Time (ms)            Time (s)
+--------------------------------------------------------------------
+Sequential                             14450.740              14.451
+OpenMP Sections                         2134.397               2.134
+OpenMP Tasks                            2162.397               2.162
+Dynamic Tasking                         2164.933               2.165
+Explicit Work Queue                     2089.246               2.089
+Adaptive                                2153.281               2.153
+
+============================================================
+Family: n=24, d=06
+============================================================
+Graphs processed: 100 / 100
+
+Graph Statistics
+----------------
+Average edges:             72.000
+Average minimal cuts:      1499034.580
+Minimum minimal cuts:      487915
+Maximum minimal cuts:      2396165
+
+Average Solver Execution Time
+-----------------------------
+Solver                                 Time (ms)            Time (s)
+--------------------------------------------------------------------
+Sequential                             18819.455              18.819
+OpenMP Sections                         3022.368               3.022
+OpenMP Tasks                            2910.627               2.911
+Dynamic Tasking                         2854.020               2.854
+Explicit Work Queue                     2775.892               2.776
+Adaptive                                2852.542               2.853
+
+============================================================
+Family: n=24, d=08
+============================================================
+Graphs processed: 100 / 100
+
+Graph Statistics
+----------------
+Average edges:             96.000
+Average minimal cuts:      3136236.510
+Minimum minimal cuts:      1556385
+Maximum minimal cuts:      3639999
+
+Average Solver Execution Time
+-----------------------------
+Solver                                 Time (ms)            Time (s)
+--------------------------------------------------------------------
+Sequential                             31772.414              31.772
+OpenMP Sections                         5998.726               5.999
+OpenMP Tasks                            6052.525               6.053
+Dynamic Tasking                         5953.071               5.953
+Explicit Work Queue                     5267.776               5.268
+Adaptive                                5917.989               5.918
+
+============================================================
+END OF BENCHMARK

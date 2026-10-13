@@ -1,0 +1,102 @@
+MINIMAL CUT BENCHMARK RESULTS
+========================================
+
+Graph file: graphs/mesh/M4x5.txt
+Vertices: 20
+Edges: 31
+Threads: 20
+
+============================================================
+
+SOLVER RESULTS
+
+============================================================
+
+Solver: Sequential
+Minimal cuts: 1353
+
+Candidates: 262144
+Minimal cuts: 1353
+Connectivity tests: 291029
+Minimality tests: 262144
+Branches: 1
+Elapsed time (s): 0.225085
+
+============================================================
+
+Solver: OpenMP Sections
+Minimal cuts: 1353
+
+Candidates: 262144
+Minimal cuts: 1353
+Connectivity tests: 291029
+Minimality tests: 262144
+Branches: 40
+Elapsed time (s): 0.041457
+
+============================================================
+
+Solver: OpenMP Tasks
+Minimal cuts: 1353
+
+Candidates: 262144
+Minimal cuts: 1353
+Connectivity tests: 291029
+Minimality tests: 262144
+Branches: 40
+Elapsed time (s): 0.025932
+
+============================================================
+
+Solver: Dynamic Tasking
+Minimal cuts: 1353
+
+Candidates: 262144
+Minimal cuts: 1353
+Connectivity tests: 291029
+Minimality tests: 262144
+Branches: 40
+Elapsed time (s): 0.023663
+
+============================================================
+
+Solver: Explicit Work Queue
+Minimal cuts: 1353
+
+Candidates: 262144
+Minimal cuts: 1353
+Connectivity tests: 291029
+Minimality tests: 262144
+Branches: 80
+Elapsed time (s): 0.024886
+
+============================================================
+
+Solver: Adaptive
+Minimal cuts: 1353
+
+Candidates: 262144
+Minimal cuts: 1353
+Connectivity tests: 291029
+Minimality tests: 262144
+Branches: 40
+Elapsed time (s): 0.023264
+
+============================================================
+
+SUMMARY
+=======
+
+Graph file: graphs/mesh/M4x5.txt
+Vertices: 20
+Edges: 31
+Threads: 20
+
+Solver	Minimal Cuts
+----------------------------------------
+Sequential	1353
+OpenMP Sections	1353
+OpenMP Tasks	1353
+Dynamic Tasking	1353
+Explicit Work Queue	1353
+Adaptive	1353
